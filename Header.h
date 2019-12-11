@@ -94,7 +94,12 @@ public:
 		{
 			cout << "At this point, there is no possible way to get " << desiredGrade << "% in the class" << endl;
 		}
+	}
 
+	void deleteAssignment()
+	{
+		AssignmentStorage.pop_back();
+		AssignmentCount--;
 	}
 
 private:

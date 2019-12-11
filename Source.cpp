@@ -8,6 +8,7 @@ void printmenu()
 	cout << "A: Add Assignment" << endl;
 	cout << "P: Print Assignments and Total Grade" << endl;
 	cout << "F: Find out what you need on the final to get your desired grade" << endl;
+	cout << "D: Delete Last Entered Assignment" << endl;
 	cout << "Q: Quit" << endl;
 }
 int main()
@@ -36,9 +37,14 @@ int main()
 		case 'P':
 			myass.printGrades();
 			break;
+		case 'd':
+		case 'D':
+			myass.deleteAssignment();
+			break;
 		case 'f':
 		case 'F':
 			myass.whatif();
+			break;
 		case 'q':
 		case 'Q':
 			break;
