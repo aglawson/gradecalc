@@ -96,13 +96,32 @@ public:
 		}
 	}
 
-	void deleteAssignment()
+	void deleteLastAssignment()
 	{
 		AssignmentStorage.pop_back();
 		AssignmentCount--;
+	}
+
+	/*void deleteCustomAssignment(string name)
+	{
+		for (int i = 0; i < AssignmentCount; i++)
+		{
+			if (AssignmentStorage[i].assignmentname == name)
+			{
+				
+			}
+		}
+	}*/
+
+	void clearAssignments()
+	{
+		AssignmentStorage.clear();
+		AssignmentCount = 0;
+		cout << "All Assignments Have Been Erased" << endl;
 	}
 
 private:
 	int AssignmentCount = 0;
 	vector<Assignment> AssignmentStorage;
 };
+
