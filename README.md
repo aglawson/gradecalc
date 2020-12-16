@@ -1,7 +1,5 @@
 # gradecalc
 To Calculate Class Grade
-# gradecalc
-To Calculate Class Grade
 
 User is presented with menu containing various options
 Menu has letters that correspond to program capbilities
