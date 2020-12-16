@@ -1,0 +1,6 @@
+﻿  Grade_Calculator.cpp
+C:\Users\kimbe\Desktop\Grade_Calculator\Grade_Calculator\Header.h(41,7): warning C4101: 'count': unreferenced local variable
+C:\Users\kimbe\Desktop\Grade_Calculator\Grade_Calculator\Header.h(73,1): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kimbe\Desktop\Grade_Calculator\Grade_Calculator\Grade_Calculator.cpp(19,8): warning C4101: 'percentage': unreferenced local variable
+C:\Users\kimbe\Desktop\Grade_Calculator\Grade_Calculator\Grade_Calculator.cpp(18,6): warning C4101: 'possible': unreferenced local variable
+  Grade_Calculator.vcxproj -> C:\Users\kimbe\Desktop\Grade_Calculator\Debug\Grade_Calculator.exe
